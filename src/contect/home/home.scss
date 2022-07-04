@@ -1,0 +1,96 @@
+.home{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+    &_left{
+        width: 612px;
+        border: 1px solid blue;
+    }
+
+    &_navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #eee;
+        border-top: none;
+    }
+
+    &_nav{
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        font-family: Open Sans;
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+
+    &_header_div{
+        padding-left: 85px;
+        margin-bottom: 17px;
+        margin-top: 20px;
+        margin-right: 16px;
+        border: 1px solid blue;
+        margin-top: 0;  
+    }
+
+    &_user_image{
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        margin-top: 8px;
+        margin-left: 17px;
+        border: 1px solid blue;
+        border-radius: 50%;
+    }
+
+    &_header_input{
+        border: none;
+        width: 100%;
+        margin-top: 15px;
+        height: 38px;
+        font-size: 20px;
+        color: #333;
+    }
+
+    &_header_svg{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .uzun_chiziq{
+        width: 100%;
+        border: 1px solid #eee;
+        display: flex;
+        margin-top: 56px;
+    }
+
+    &_header_svg_img1{
+        width: 50px;
+        height: 50px;
+    }
+    &_header_svg_img2{
+        width: 30px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    &_header_svg_img3{
+        width: 50px;
+        height: 50px;
+        // margin-bottom: 10px;
+    }
+    &_header_svg_img4{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.none{
+    display: none;
+}
